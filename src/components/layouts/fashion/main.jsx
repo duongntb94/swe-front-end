@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import "../../common/index.scss";
-import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
 // Import custom components
@@ -26,61 +25,8 @@ class Fashion extends Component {
       <div>
         <Helmet>
           <title>EShop</title>
-          <meta
-            name="description"
-            content="Multikart – Multipurpose eCommerce React Template is a multi-use React template. It is designed to go well with multi-purpose websites. Multikart Bootstrap 4 Template will help you run multiple businesses."
-          />
+          <meta name="description" content="EShop – " />
         </Helmet>
-        {/*Home Slider*/}
-        <section className="p-0">
-          <Slider className="slide-1 home-slider">
-            <div>
-              <div className="home home1 text-center">
-                <div className="container">
-                  <div className="row">
-                    <div className="col">
-                      <div className="slider-contain">
-                        <div>
-                          <h4>Welcome to EShop</h4>
-                          <h1>Men Fashion</h1>
-                          <Link
-                            to={`${process.env.PUBLIC_URL}/left-sidebar/collection`}
-                            className="btn btn-solid"
-                          >
-                            Shop now
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="home home2 text-center">
-                <div className="container">
-                  <div className="row">
-                    <div className="col">
-                      <div className="slider-contain">
-                        <div>
-                          <h4>Welcome to EShop</h4>
-                          <h1>Women Fashion</h1>
-                          <Link
-                            to={`${process.env.PUBLIC_URL}/left-sidebar/collection`}
-                            className="btn btn-solid"
-                          >
-                            Shop now
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Slider>
-        </section>
-        {/*Home Section End*/}
 
         {/*collection banner*/}
         <section className="pb-0">
