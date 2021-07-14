@@ -1,17 +1,15 @@
 import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
-import { IntlActions } from "react-redux-multilingual";
 import Pace from "react-pace-progress";
-
+import { connect } from "react-redux";
+import { IntlActions } from "react-redux-multilingual";
+import { changeCurrency } from "../../../actions";
 // Import custom components
 import store from "../../../store";
+import CartContainer from "./../../../containers/CartContainer";
+import LogoImage from "./common/logo";
 import NavBar from "./common/navbar";
 import SideBar from "./common/sidebar";
-import CartContainer from "./../../../containers/CartContainer";
 import TopBar from "./common/topbar";
-import LogoImage from "./common/logo";
-import { changeCurrency } from "../../../actions";
-import { connect } from "react-redux";
 
 class HeaderOne extends Component {
   constructor(props) {

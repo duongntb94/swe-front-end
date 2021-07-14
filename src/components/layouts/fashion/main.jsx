@@ -7,7 +7,6 @@ import {
   svgservice,
 } from "../../../services/script";
 import "../../common/index.scss";
-import LogoBlock from "../common/logo-block";
 import SpecialProducts from "../common/products";
 // Import custom components
 import TopCollection from "./top-collection";

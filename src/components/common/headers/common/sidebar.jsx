@@ -94,37 +94,47 @@ class SideBar extends Component {
                         <h5>women's fashion</h5>
                         <ul>
                           <li>
-                            <Link to="left-sidebar/collection">dresses</Link>
+                            <Link to="/left-sidebar/collection" replace>
+                              dresses
+                            </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">skirts</Link>
+                            <Link to="/left-sidebar/collection" replace>
+                              skirts
+                            </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">
+                            <Link to="/left-sidebar/collection" replace>
                               westarn wear
                             </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">ethic wear</Link>
+                            <Link to="/left-sidebar/collection" replace>
+                              ethic wear
+                            </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">sport wear</Link>
+                            <Link to="/left-sidebar/collection" replace>
+                              sport wear
+                            </Link>
                           </li>
                         </ul>
                         <h5>men's fashion</h5>
                         <ul>
                           <li>
-                            <Link to="left-sidebar/collection">
+                            <Link to="/left-sidebar/collection" replace>
                               sports wear
                             </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">
+                            <Link to="/left-sidebar/collection" replace>
                               western wear
                             </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">ethic wear</Link>
+                            <Link to="/left-sidebar/collection" replace>
+                              ethic wear
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -134,37 +144,47 @@ class SideBar extends Component {
                         <h5>accessories</h5>
                         <ul>
                           <li>
-                            <Link to="left-sidebar/collection">
+                            <Link to="/left-sidebar/collection" replace>
                               fashion jewellery
                             </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">
+                            <Link to="/left-sidebar/collection" replace>
                               caps and hats
                             </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">
+                            <Link to="/left-sidebar/collection" replace>
                               precious jewellery
                             </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">necklaces</Link>
+                            <Link to="/left-sidebar/collection" replace>
+                              necklaces
+                            </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">earrings</Link>
+                            <Link to="/left-sidebar/collection" replace>
+                              earrings
+                            </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">wrist wear</Link>
+                            <Link to="/left-sidebar/collection" replace>
+                              wrist wear
+                            </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">ties</Link>
+                            <Link to="/left-sidebar/collection" replace>
+                              ties
+                            </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">cufflinks</Link>
+                            <Link to="/left-sidebar/collection" replace>
+                              cufflinks
+                            </Link>
                           </li>
                           <li>
-                            <Link to="left-sidebar/collection">
+                            <Link to="/left-sidebar/collection" replace>
                               pockets squares
                             </Link>
                           </li>
@@ -182,13 +202,19 @@ class SideBar extends Component {
               </Link>
               <ul>
                 <li>
-                  <Link to="left-sidebar/collection">shopper bags</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    shopper bags
+                  </Link>
                 </li>
                 <li>
-                  <Link to="left-sidebar/collection">laptop bags</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    laptop bags
+                  </Link>
                 </li>
                 <li>
-                  <Link to="left-sidebar/collection">clutches</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    clutches
+                  </Link>
                 </li>
                 <li>
                   <Link to="#" onClick={(e) => this.handleSubTwoMenu(e)}>
@@ -197,16 +223,24 @@ class SideBar extends Component {
                   </Link>
                   <ul>
                     <li>
-                      <Link to="left-sidebar/collection">purses</Link>
+                      <Link to="/left-sidebar/collection" replace>
+                        purses
+                      </Link>
                     </li>
                     <li>
-                      <Link to="left-sidebar/collection">wallets</Link>
+                      <Link to="/left-sidebar/collection" replace>
+                        wallets
+                      </Link>
                     </li>
                     <li>
-                      <Link to="left-sidebar/collection">leathers</Link>
+                      <Link to="/left-sidebar/collection" replace>
+                        leathers
+                      </Link>
                     </li>
                     <li>
-                      <Link to="left-sidebar/collection">satchels</Link>
+                      <Link to="/left-sidebar/collection" replace>
+                        satchels
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -219,13 +253,19 @@ class SideBar extends Component {
               </Link>
               <ul>
                 <li>
-                  <Link to="left-sidebar/collection">sport shoes</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    sport shoes
+                  </Link>
                 </li>
                 <li>
-                  <Link to="left-sidebar/collection">formal shoes</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    formal shoes
+                  </Link>
                 </li>
                 <li>
-                  <Link to="left-sidebar/collection">casual shoes</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    casual shoes
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -239,13 +279,19 @@ class SideBar extends Component {
               </Link>
               <ul>
                 <li>
-                  <Link to="left-sidebar/collection">fashion jewellery</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    fashion jewellery
+                  </Link>
                 </li>
                 <li>
-                  <Link to="left-sidebar/collection">caps and hats</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    caps and hats
+                  </Link>
                 </li>
                 <li>
-                  <Link to="left-sidebar/collection">precious jewellery</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    precious jewellery
+                  </Link>
                 </li>
                 <li>
                   <Link to="#" onClick={(e) => this.handleSubTwoMenu(e)}>
@@ -254,13 +300,19 @@ class SideBar extends Component {
                   </Link>
                   <ul>
                     <li>
-                      <Link to="left-sidebar/collection">necklaces</Link>
+                      <Link to="/left-sidebar/collection" replace>
+                        necklaces
+                      </Link>
                     </li>
                     <li>
-                      <Link to="left-sidebar/collection">earrings</Link>
+                      <Link to="/left-sidebar/collection" replace>
+                        earrings
+                      </Link>
                     </li>
                     <li>
-                      <Link to="left-sidebar/collection">wrist wear</Link>
+                      <Link to="/left-sidebar/collection" replace>
+                        wrist wear
+                      </Link>
                     </li>
                     <li>
                       <Link to="#" onClick={(e) => this.handleSubThreeMenu(e)}>
@@ -269,21 +321,29 @@ class SideBar extends Component {
                       </Link>
                       <ul>
                         <li>
-                          <Link to="left-sidebar/collection">ties</Link>
+                          <Link to="/left-sidebar/collection" replace>
+                            ties
+                          </Link>
                         </li>
                         <li>
-                          <Link to="left-sidebar/collection">cufflinks</Link>
+                          <Link to="/left-sidebar/collection" replace>
+                            cufflinks
+                          </Link>
                         </li>
                         <li>
-                          <Link to="left-sidebar/collection">
+                          <Link to="/left-sidebar/collection" replace>
                             pockets squares
                           </Link>
                         </li>
                         <li>
-                          <Link to="left-sidebar/collection">helmets</Link>
+                          <Link to="/left-sidebar/collection" replace>
+                            helmets
+                          </Link>
                         </li>
                         <li>
-                          <Link to="left-sidebar/collection">scarves</Link>
+                          <Link to="/left-sidebar/collection" replace>
+                            scarves
+                          </Link>
                         </li>
                         <li>
                           <Link
@@ -295,17 +355,17 @@ class SideBar extends Component {
                           </Link>
                           <ul>
                             <li>
-                              <Link to="left-sidebar/collection">
+                              <Link to="/left-sidebar/collection" replace>
                                 accessory gift sets
                               </Link>
                             </li>
                             <li>
-                              <Link to="left-sidebar/collection">
+                              <Link to="/left-sidebar/collection" replace>
                                 travel accessories
                               </Link>
                             </li>
                             <li>
-                              <Link to="left-sidebar/collection">
+                              <Link to="/left-sidebar/collection" replace>
                                 phone cases
                               </Link>
                             </li>
@@ -314,17 +374,23 @@ class SideBar extends Component {
                       </ul>
                     </li>
                     <li>
-                      <Link to="left-sidebar/collection">belts & more</Link>
+                      <Link to="/left-sidebar/collection" replace>
+                        belts & more
+                      </Link>
                     </li>
                     <li>
-                      <Link to="left-sidebar/collection">wearable</Link>
+                      <Link to="/left-sidebar/collection" replace>
+                        wearable
+                      </Link>
                     </li>
                   </ul>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="left-sidebar/collection">house of design</Link>
+              <Link to="/left-sidebar/collection" replace>
+                house of design
+              </Link>
             </li>
             <li>
               <Link to="#" onClick={(e) => this.handleSubmenu(e)}>
@@ -333,13 +399,19 @@ class SideBar extends Component {
               </Link>
               <ul>
                 <li>
-                  <Link to="left-sidebar/collection">makeup</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    makeup
+                  </Link>
                 </li>
                 <li>
-                  <Link to="left-sidebar/collection">skincare</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    skincare
+                  </Link>
                 </li>
                 <li>
-                  <Link to="left-sidebar/collection">premium beaty</Link>
+                  <Link to="/left-sidebar/collection" replace>
+                    premium beaty
+                  </Link>
                 </li>
                 <li>
                   <Link to="#" onClick={(e) => this.handleSuTwobmenu(e)}>
